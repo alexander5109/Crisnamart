@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Catálogo Jazz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div><strong>Catálogo Jazz</strong></div>
+    <nav>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('productos')">Productos</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Bienvenido</h1>
+    <p>Este es el catálogo de productos de Jazz. Navega a la sección de Productos para ver el catálogo completo.</p>
+  </section>
+
+  <section id="productos" class="hidden">
+    <h1>Catálogo de Productos</h1>
+    <div id="catalogo"></div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
